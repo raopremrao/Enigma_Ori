@@ -7,14 +7,14 @@ import { ScrollTrigger } from 'gsap/all'
 const Projects = () => {
 
   const projects = [{
-    image1: 'https://images.pexels.com/photos/2007647/pexels-photo-2007647.jpeg',
-    image2: 'https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg'
+    image1: 'img1.jpg',
+    image2: 'img2.jpg'
   }, {
-    image1: 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg',
-    image2: 'https://images.pexels.com/photos/5324856/pexels-photo-5324856.jpeg'
+    image1: 'img3.jpg',
+    image2: 'img4.jpg'
   }, {
-    image1: 'https://images.pexels.com/photos/5292203/pexels-photo-5292203.jpeg',
-    image2: 'https://images.pexels.com/photos/7768663/pexels-photo-7768663.jpeg'
+    image1: 'img51.jpg',
+    image2: 'img6.jpg'
   }]
 
 
