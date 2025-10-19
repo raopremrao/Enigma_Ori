@@ -132,18 +132,27 @@ const About = () => {
     <div>
       <section className="team" ref={teamRef}>
         <div className="profile-images">
-          <div className="img"><img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg" alt=""/></div>
-          <div className="img"><img src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg" alt=""/></div>
-          <div className="img"><img src="https://images.pexels.com/photos/10762283/pexels-photo-10762283.jpeg" alt=""/></div>
-          <div className="img"><img src="https://images.pexels.com/photos/14970483/pexels-photo-14970483.jpeg" alt=""/></div>
+          <div className="img"><img src="image1.jpeg" alt=""/></div>
+          <div className="img"><img src="image2.jpeg" alt=""/></div>
+          <div className="img"><img src="image3.jpeg" alt=""/></div>
+          <div className="img"><img src="image8.jpeg" alt=""/></div>
+          <div className="img"><img src="image4.jpeg" alt=""/></div>
+          <div className="img"><img src="image5.jpeg" alt=""/></div>
+          <div className="img"><img src="image6.jpeg" alt=""/></div>
+          <div className="img"><img src="image7.jpeg" alt=""/></div>
         </div>
 
         <div className="profile-names">
           <div className="name default"><h1>The Squad</h1></div>
-          <div className="name"><h1>Colin</h1></div>
-          <div className="name"><h1>Tabitha</h1></div>
-          <div className="name"><h1>Max</h1></div>
-          <div className="name"><h1>Simon</h1></div>
+          <div className="name"><h1>Srinibas Das</h1></div>
+          <div className="name"><h1>Sonakshi Pradhan</h1></div>
+          <div className="name"><h1>Gyanaranjan Patra</h1></div>
+          <div className="name"><h1>Narayan Agarwal</h1></div>
+          <div className="name"><h1>Anurag Mahapatra</h1></div>
+          <div className="name"><h1>K Suman Patra</h1></div>
+          <div className="name"><h1>Dharmendra Mahanta</h1></div>
+          <div className="name"><h1>Dipun Barik</h1></div>
+          
         </div>
       </section>
     </div>
