@@ -10,11 +10,11 @@ const Projects = () => {
     image1: 'https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_1280x960-1280x960.jpg',
     image2: 'https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---Thumbnail-1280x960.jpg'
   }, {
-    image1: 'https://k72.ca/uploads/caseStudies/OKA/OKA_thumbnail-1280x960.jpg',
-    image2: 'https://k72.ca/uploads/caseStudies/Opto/thumbnailimage_opto-1280x960.jpg'
+    image1: 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg',
+    image2: 'https://images.pexels.com/photos/5324856/pexels-photo-5324856.jpeg'
   }, {
-    image1: 'https://k72.ca/uploads/caseStudies/LAMAJEURE_-_Son_sur_mesure/chalaxeur-thumbnail_img-1280x960.jpg',
-    image2: 'https://k72.ca/uploads/caseStudies/SHELTON/thumbnailimage_shelton-1280x960.jpg'
+    image1: 'https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg',
+    image2: 'https://images.pexels.com/photos/7768663/pexels-photo-7768663.jpeg'
   }]
 
 
