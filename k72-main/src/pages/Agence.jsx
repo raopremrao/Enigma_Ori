@@ -29,7 +29,18 @@ const Agence = () => {
 
   useGSAP(function () {
 
-    gsap.to(imageDivRef.current, {
+    // avoid applying ScrollTrigger on small screens (mobile)
+    if (typeof window === 'undefined') return
+    const isMobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches
+
+    if (isMobile) {
+      // ensure any existing ScrollTriggers are removed and keep a static image
+      ScrollTrigger.getAll().forEach(t => t.kill && t.kill())
+      if (imageRef.current) imageRef.current.src = imageArray[0]
+      return
+    }
+
+    const tween = gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
         // markers: true,
@@ -43,7 +54,8 @@ const Agence = () => {
         anticipatePin: 1,
         invalidateOnRefresh: true,
         onUpdate: (elem) => {
-          let imageIndex;
+          if (!imageRef.current) return
+          let imageIndex
           if (elem.progress < 1) {
             imageIndex = Math.floor(elem.progress * imageArray.length)
           } else {
@@ -53,6 +65,12 @@ const Agence = () => {
         }
       }
     })
+
+    // cleanup when hook unmounts / re-runs
+    return () => {
+      tween && tween.kill && tween.kill()
+      ScrollTrigger.getAll().forEach(t => t.kill && t.kill())
+    }
   })
 
 
