@@ -103,7 +103,8 @@ const FullScreenNav = () => {
                 </div>
                 <div className=' pt-5'>
                     <div className='link origin-top relative border-t-1 border-white'>
-                        <a href="/projects" className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projets</h1></a>
+                        <Link to="/projects" onClick={() => setNavOpen(false)} className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Projets</h1></Link>
+
                         <div className='moveLink absolute text-black flex top-0 bg-[#D3FD50] -z-1'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase'>My Projects</h2>
@@ -121,7 +122,7 @@ const FullScreenNav = () => {
 
                     </div>
                     <div className='link origin-top relative border-t-1 border-white'>
-                        <a href="/agence" className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Agence</h1></a>
+                        <Link to="/agence" onClick={() => setNavOpen(false)} className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Agence</h1></Link>
                         <div className='moveLink absolute text-black flex top-0 bg-[#D3FD50] -z-1'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase'>Know Us</h2>
@@ -139,7 +140,7 @@ const FullScreenNav = () => {
 
                     </div>
                     <div className='link origin-top relative border-t-1 border-white'>
-                        <a href="/contact" className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Contact</h1></a>
+                        <Link to="/contact" onClick={() => setNavOpen(false)} className='linka z-2'><h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Contact</h1></Link>
                         
                         <div className='moveLink absolute text-black flex top-0 bg-[#D3FD50] -z-1'>
                             <div className='moveX flex items-center'>
@@ -158,9 +159,9 @@ const FullScreenNav = () => {
 
                     </div>
                     <div className='link origin-top relative border-y-1 border-white'>
-                        <a href="/blogs" className='linka z-10 w-full flex justify-center'>
+                        <Link to="/blogs" onClick={() => setNavOpen(false)} className='linka z-10 w-full flex justify-center'>
                             <h1 className='font-[font2] text-5xl lg:text-[8vw] text-center lg:leading-[0.8] lg:pt-10 pt-3 uppercase'>Blogs</h1>
-                        </a>
+                        </Link>
                         <div className='moveLink absolute text-black flex top-0 bg-[#D3FD50] -z-1'>
                             <div className='moveX flex items-center'>
                                 <h2 className='whitespace-nowrap font-[font2] lg:text-[8vw] text-5xl  text-center lg:leading-[0.8] lg:pt-10 pt-4 uppercase'>Read Articles</h2>
