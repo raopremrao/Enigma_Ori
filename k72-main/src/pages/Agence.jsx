@@ -59,7 +59,7 @@ const Agence = () => {
   return (
     <div className='parent'>
       <div id='page1' className='py-1 '>
-        <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[25vw] lg:top-96 -top-80 lg:left-[15vw] left-[30vw]'>
+        <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[25vw] lg:top-70 top-85 lg:left-[15vw] left-[10vw]'>
           <img ref={imageRef} className='h-full object-cover w-full' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg" alt="" />
         </div>
         <div className='relative font-[font2]'>
@@ -67,7 +67,7 @@ const Agence = () => {
             <h1 className='text-[20vw] text-center uppercase leading-[18vw]'>Seven7y <br />
               Two</h1>
           </div>
-          <div className='lg:pl-[40%] lg:mt-20 mt-4 p-3'>
+          <div className='lg:pl-[40%] pl-[40%] lg:mt-20 mt-4 p-3'>
             <p className='lg:text-5xl text-s leading-tight'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We’re inquisitive and open-minded, and we make sure creativity crowds out ego from every corner. A brand is a living thing, with values, a personality and a story. If we ignore that, we can achieve short-term success, but not influence that goes the distance. We bring that perspective to every brand story we help tell.</p>
           </div>
         </div>
