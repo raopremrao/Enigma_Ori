@@ -11,7 +11,7 @@ import { useEffect } from 'react'
 // import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 
 
-// const App = () => {
+const App = () => {
 
 //   useEffect(() => {
 //     const lenis = new Lenis();
