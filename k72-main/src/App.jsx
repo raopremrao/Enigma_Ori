@@ -7,22 +7,22 @@ import FullScreenNav from './components/Navigation/FullScreenNav'
 import About from './pages/About'
 import Lenis from 'lenis'
 import { useEffect } from 'react'
-import gsap from 'gsap'; 
-import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
+// import gsap from 'gsap'; 
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 
 
-const App = () => {
+// const App = () => {
 
-  useEffect(() => {
-    const lenis = new Lenis();
+//   useEffect(() => {
+//     const lenis = new Lenis();
 
-    lenis.on('scroll', ScrollTrigger.update);
-    gsap.ticker.add((time) => {
-      lenis.raf(time * 1000);
-    });
+//     lenis.on('scroll', ScrollTrigger.update);
+//     gsap.ticker.add((time) => {
+//       lenis.raf(time * 1000);
+//     });
 
-    gsap.ticker.lagSmoothing(0);
-  }, []);
+//     gsap.ticker.lagSmoothing(0);
+//   }, []);
   
 
   return (
