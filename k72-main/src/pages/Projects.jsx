@@ -13,7 +13,7 @@ const Projects = () => {
     image1: 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg',
     image2: 'https://images.pexels.com/photos/5324856/pexels-photo-5324856.jpeg'
   }, {
-    image1: 'https://images.pexels.com/photos/7809122/pexels-photo-7809122.jpeg',
+    image1: 'https://images.pexels.com/photos/5292203/pexels-photo-5292203.jpeg',
     image2: 'https://images.pexels.com/photos/7768663/pexels-photo-7768663.jpeg'
   }]
 
