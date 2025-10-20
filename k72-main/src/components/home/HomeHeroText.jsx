@@ -4,17 +4,17 @@ import Video from './Video'
 const HomeHeroText = () => {
     return (
         <div className='font-[font3]  mt-30 lg:mt-0 pt-5 text-center text-white'>
-            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
+            <div className='lg:text-[8.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
                 The spark for
             </div>
-            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
+            <div className='lg:text-[8vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
                 all
                 <div className='h-[7vw] w-[16vw] rounded-full lg:-mt-3 overflow-hidden '>
                     <Video />
                 </div>
                 things
             </div>
-            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
+            <div className='lg:text-[7vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
                 creative
             </div>
         </div>

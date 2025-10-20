@@ -11,7 +11,7 @@ const HomeBottomText = () => {
         <Link className='text-[4vw] lg:mt-6' to='/projects'>Projects</Link>
       </div>
       <div className='lg:border-3 border-2 hover:border-[#D3FD50] hover:text-[#D3FD50] lg:h-30 flex items-center px-4 pt-1 lg:px-14 border-white rounded-full uppercase'>
-        <Link className='text-[4vw] lg:mt-6' to='/agence'>agence</Link>
+        <Link className='text-[4vw] lg:mt-6' to='/about'>Members</Link>
       </div>
     </div>
   )
