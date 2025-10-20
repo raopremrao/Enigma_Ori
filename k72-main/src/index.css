@@ -9,6 +9,10 @@
     font-family: font2;
     src: url(/fonts/Lausanne-500.woff2);
 }
+@font-face {
+    font-family: font3;
+    src: url(/fonts/bl-b.woff2);
+}
 
 html, body, #root {
   height: 100%;
